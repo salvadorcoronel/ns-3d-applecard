@@ -1,0 +1,14 @@
+@mixin set-bg-image($imageName) {
+  background-image: url("~/images/#{$imageName}.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@mixin set-animation($name) { 
+  animation-name: $name;
+  animation-delay: 0;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
