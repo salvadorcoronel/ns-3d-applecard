@@ -4,7 +4,9 @@ This source code was created to demonstrate how we can do a 3d horizontal and ve
 
 ## Demo
 
-[<img src="ns-3d-apple-card.png" width="600">](https://www.youtube.com/embed/ybttvqhwmnU)
+
+
+[<img src="ns-3d-animation-apple-card.gif" width="300">](https://www.youtube.com/embed/ybttvqhwmnU)
 
 ## Front Apple Card GridLayout
 

@@ -1,6 +1,6 @@
 # NativeScript Apple Card - 3D Animation
 
-This source code was created to demonstrate how we can do a 3d horizontal and vertical animation of an Apple Card using only styles. The application built with NativeScript including some .scss styles, custom mixins, font icons, .png images to create an Apple Card using 2 GridLayouts.
+This source code was created to demonstrate how we can do a 3d horizontal and vertical animation of an Apple Card using only css styles. The application built with NativeScript including some .scss styles, custom mixins, font icons, .png images to create an Apple Card using 2 GridLayouts.
 
 ## Demo
 
@@ -13,6 +13,8 @@ $ git clone https://github.com/salvadorcoronel/ns-3d-applecard.git
 $ cd ns-3d-applecard
 $ tns run android/iOS --bundle
 ```
+
+# How it works?
 
 ## Front Apple Card GridLayout
 
@@ -156,7 +158,7 @@ this.backAppleCard.className = 'apple-card apple-card-back flip-front-h';
 
 `How you can see only need to apply the specific classes to front or back of the apple card to rotate them.`
 
-### **Example II:** If we want to horizontally rotate the apple card (rotating the card to its original state), we need to do 2 actions to:
+### **Example II:** If we want to horizontally rotate the apple card (rotating the card to its original state), we need to do 2 actions too:
 
 - ***First Action***:
 Horizontally Rotate the front of the apple card (after the above actions the front of the apple card is in the background) 180 degrees front
@@ -172,7 +174,7 @@ Horizontally Rotate the back (after the above actions the front of the apple car
 this.backAppleCard.className = 'apple-card apple-card-back flip-back-h';
 ```
 
-below this all code that we need to do 3D flip the apple card both horizontally and vertically...
+below all code that we need to do 3D flip the apple card both horizontally and vertically...
 
 ```typescript
 onRotateCard(rotate: string) {
