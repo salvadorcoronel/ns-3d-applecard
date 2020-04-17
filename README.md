@@ -4,7 +4,7 @@ This source code was created to demonstrate how we can do a 3d horizontal and ve
 
 ## Demo
 
-[<img src="docs/ns-3d-animation-apple-card.gif" width="300">](https://www.youtube.com/embed/ybttvqhwmnU)
+[<img src="docs/ns-apple-card-320.gif" width="300">](https://www.youtube.com/embed/ybttvqhwmnU)
 
 # If you want a quickstart, clone the repo, then:
 
